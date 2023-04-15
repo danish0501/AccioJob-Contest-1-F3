@@ -1,0 +1,63 @@
+* {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+h3 {
+    color: white;
+}
+
+.form {
+    color: white;
+}
+
+#added-employees {
+    color: white;
+}
+
+#employees {
+    color: white;
+}
+
+.input {
+    border-color: white;
+    cursor: pointer;
+    padding: 7px 35px;
+    color: white;
+}
+
+#btn1 {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.label {
+    font-size: 20px;
+}
+
+#arrData {
+    color: white;
+}
+
+#btn2 {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 6px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}

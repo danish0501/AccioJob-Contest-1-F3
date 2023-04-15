@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>F2 Contest-2</title>
+</head>
+
+<body>
+    <h3>New Employees</h3>
+    <form name="forAdd" method="post" action="" class="form">
+        <label for="name" class="label">Enter Name</label>
+        &nbsp;&nbsp;
+        <input type="text" id="name" name="name" class="input" required />
+        &nbsp; &nbsp; &nbsp;
+
+        <label for="profession" class="label">Enter Profession</label>
+        &nbsp;&nbsp;
+        <input type="text" id="profession" name="profession" class="input" required />
+        &nbsp; &nbsp; &nbsp;
+
+        <label for="age" class="label">Enter Age</label>
+        &nbsp;&nbsp;
+        <input type="number" id="age" name="age" class="input" required />
+        <br /><br />
+
+        <button id="btn1" type="submit">Add User</button>
+    </form>
+
+    <div>
+        <p id="red" style="color: red; display: block"></p>
+    </div>
+    <div>
+        <p id="green" style="color: green; display: block"></p>
+    </div>
+
+    <h4 id="added-employees">Added Employees</h4>
+
+    <p id="employees">You have 0 employees.</p>
+
+    <p id="zero"></p>
+
+    <div id="arrData"></div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
